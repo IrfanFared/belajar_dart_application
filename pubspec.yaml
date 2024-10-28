@@ -5,9 +5,16 @@ version: 1.0.0
 
 environment:
   sdk: ^3.5.3
+ 
 
+publish_to: none #jika kita ingin mengunakan denpencies mengunakann git makan publish to harus di buata none
 # Add regular dependencies here.
+
 dependencies:
+  Belajar_Dart_Packages:
+    git:
+      url:git@github.com:IrfanFared/Belajar_Dart_Packages.git
+      ref:1.0.0
   # path: ^1.8.0
 
 dev_dependencies:
